@@ -1,0 +1,14 @@
+print('введите первое число:',end='')
+a=int(input())
+print('введите второе число:',end='')
+b=int(input())
+c=a #обмен с помощью доп переменной
+a=b
+b=c
+print('a=',a)
+print('b=',b)
+a=a+b #обмен без доп переменной
+b=a-b
+a=a-b
+print('a=',a)
+print('b=',b)
