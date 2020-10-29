@@ -1,9 +1,10 @@
-a=float(input()) #ввод числа
-b=int(input()) #ввод степени
-chislo=a
-for i in range(1,b): #возведение в степень
-    chislo*=a
-if chislo%1==0:
-    print(int(chislo))
-else:
-    print(chislo)
+  
+a = float(input("Введите число: "))
+b = int(input("Введите степень: "))
+if (b < 0):
+	a = 1/a
+	b = -b
+chislo = 1
+for i in range(b):
+	chislo *= a
+print(chislo)
