@@ -20,4 +20,10 @@
 | Практическая 12 - [[C++]](https://github.com/alimsadetov/Programming/tree/master/Practice/12/c%2B%2B/) [[Python]](https://github.com/alimsadetov/Programming/tree/master/Practice/12/python/) | 
 | Практическая 13 - [[C++]](https://github.com/alimsadetov/Programming/tree/master/Practice/13/c%2B%2B/) [[Python]](https://github.com/alimsadetov/Programming/tree/master/Practice/13/python/) | 
 | Практическая 14 - [[C++]](https://github.com/alimsadetov/Programming/tree/master/Practice/14/c%2B%2B/) [[Python]](https://github.com/alimsadetov/Programming/tree/master/Practice/14/python/) | 
-| Практическая 15 - [[C++]](https://github.com/alimsadetov/Programming/tree/master/Practice/15/c%2B%2B/) [[Python]](https://github.com/alimsadetov/Programming/tree/master/Practice/15/python/) | 
+| Практическая 15 - [[C++]](https://github.com/alimsadetov/Programming/tree/master/Practice/15/c%2B%2B/) [[Python]](https://github.com/alimsadetov/Programming/tree/master/Practice/15/python/) |
+| Практическая 16 - [[C++]](https://github.com/alimsadetov/Programming/tree/master/Practice/16/c%2B%2B/) [[Python]](https://github.com/alimsadetov/Programming/tree/master/Practice/16/python/) |
+| Практическая 17 - [[C++]](https://github.com/alimsadetov/Programming/tree/master/Practice/17/c%2B%2B/) [[Python]](https://github.com/alimsadetov/Programming/tree/master/Practice/17/python/) |
+| Практическая 18 - [[C++]](https://github.com/alimsadetov/Programming/tree/master/Practice/18/c%2B%2B/) [[Python]](https://github.com/alimsadetov/Programming/tree/master/Practice/18/python/) |
+| Практическая 19 - [[C++]](https://github.com/alimsadetov/Programming/tree/master/Practice/19/c%2B%2B/) [[Python]](https://github.com/alimsadetov/Programming/tree/master/Practice/19/python/) |
+| Практическая 20 - [[C++]](https://github.com/alimsadetov/Programming/tree/master/Practice/20/c%2B%2B/) [[Python]](https://github.com/alimsadetov/Programming/tree/master/Practice/20/python/) |
+| Практическая 21 - [[C++]](https://github.com/alimsadetov/Programming/tree/master/Practice/21/c%2B%2B/) [[Python]](https://github.com/alimsadetov/Programming/tree/master/Practice/21/python/) |
