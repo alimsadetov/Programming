@@ -1,3 +1,4 @@
 ﻿  23.cpp
-C:\Users\lenovo\Desktop\вуз\Programming\Practice\23\c++\23\sinus.h(4,10): warning C4244: return: преобразование "int" в "float", возможна потеря данных
+C:\Users\lenovo\Desktop\вуз\Programming\Practice\23\c++\23\sinus.h(8,62): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+C:\Users\lenovo\Desktop\вуз\Programming\Practice\23\c++\23\23.cpp(20,35): warning C4305: инициализация: усечение из "double" в "float"
   23.vcxproj -> C:\Users\lenovo\Desktop\вуз\Programming\Practice\23\c++\23\Debug\23.exe
