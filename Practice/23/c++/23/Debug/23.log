@@ -1,0 +1,3 @@
+﻿  23.cpp
+C:\Users\lenovo\Desktop\вуз\Programming\Practice\23\c++\23\sinus.h(4,10): warning C4244: return: преобразование "int" в "float", возможна потеря данных
+  23.vcxproj -> C:\Users\lenovo\Desktop\вуз\Programming\Practice\23\c++\23\Debug\23.exe
