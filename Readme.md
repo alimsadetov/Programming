@@ -6,7 +6,7 @@
 ​
 | Практические | Лабораторные |
 | ------------ | ------------ |
-| Практическая 1 - [[C++]](https://github.com/alimsadetov/Programming/tree/master/Practice/01/c%2B%2B/) [[Python]](https://github.com/alimsadetov/Programming/tree/master/Practice/01/python/) | 
+| Практическая 1 - [[C++]](https://github.com/alimsadetov/Programming/tree/master/Practice/01/c%2B%2B/) [[Python]](https://github.com/alimsadetov/Programming/tree/master/Practice/01/python/) |[[C++]](https://github.com/alimsadetov/Programming/tree/master/Lab/01/c%2B%2B/) [[Python]](https://github.com/alimsadetov/Programming/tree/master/Lab/01/python/) 
 | Практическая 2 - [[C++]](https://github.com/alimsadetov/Programming/tree/master/Practice/02/c%2B%2B/) [[Python]](https://github.com/alimsadetov/Programming/tree/master/Practice/02/python/) | 
 | Практическая 3 - [[C++]](https://github.com/alimsadetov/Programming/tree/master/Practice/03/c%2B%2B/) [[Python]](https://github.com/alimsadetov/Programming/tree/master/Practice/03/python/) | 
 | Практическая 4 - [[C++]](https://github.com/alimsadetov/Programming/tree/master/Practice/04/c%2B%2B/) [[Python]](https://github.com/alimsadetov/Programming/tree/master/Practice/04/python/) | 
