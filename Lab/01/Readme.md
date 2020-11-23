@@ -71,6 +71,7 @@
 Вот исходный код сервера:
 <details>
 <summary>Спойлер</summary>
+```c++
 #include <iostream>
 #include <iomanip>
 #include <fstream>
@@ -269,6 +270,7 @@ void gen_response(const Request& req, Response& res)
 
     string vivod = remove_string_in_html(vidg, cache, current_hour);
     res.set_content(vivod, "text/html");
+	```
 	</details>
 	<br>
 	
@@ -277,6 +279,7 @@ void gen_response(const Request& req, Response& res)
 Создаём клиентское приложение, которое будет посылать запросы на 3000 порт localhost, обрабатывать json файл и отображать погоду на текущий момент. Приложение создаётся на python с использованием библиотеки tkinter. Вот полный исходный код клиентского приложения:
 <details>
 <summary>Спойлер</summary>
+```python
 import json
 import requests
 from tkinter import *
@@ -315,6 +318,7 @@ temperature.pack(expand=True)
 
 Reloading()
 root.mainloop()
+```
 </details>
 <br>
 
