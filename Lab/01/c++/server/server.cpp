@@ -13,6 +13,9 @@ using std::ifstream;
 using std::ofstream;
 using namespace httplib;
 
+void gen_response(const Request& req, Response& res);
+void gen_response_raw(const Request& req, Response& res);
+
 int main()
 {
     //создание сервера
@@ -35,7 +38,12 @@ json GetWeather()
         if (res->status == 200)
         {
             json vivod = res->body;
-            return vivod
+            return vivod;
+        }
+        else
+        {
+            cout << "Status code: " << res->status << endl;
+        }
     }
     else//если ошибка
     {
@@ -70,6 +78,16 @@ string GetTime()
 bool file_emptyfier(std::ifstream& pFile)
 {
     return pFile.peek() == ifstream::traits_type::eof();
+}
+
+json sozdatel_cache(ifstream& ReadCache)
+{
+    json RawKash;
+    RawKash = GetWeather();
+    ofstream wc("kash.json");
+    cout << "cache generiruetsya, terpite...\n";
+    wc << std::setw(2) << RawKash << "\n";
+    return RawKash;
 }
 
 //замена в weather.html

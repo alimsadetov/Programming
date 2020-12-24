@@ -26,7 +26,7 @@ top.pack(side=TOP, fill=X)
 middle.pack(expand=True, fill=BOTH)
 bottom.pack(side=BOTTOM, fill=X)
 
-town = Label(top, font=("Times New Roman", 14), text="Симферопольск", bg=color2)
+town = Label(top, font=("Times New Roman", 14), text="Симферополь", bg=color2)
 description = Label(top, font=("Arial", 14), bg=color2)
 temperature = Label(middle, font=("Arial", 70), bg=color1)
 
