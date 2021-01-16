@@ -1,0 +1,8 @@
+﻿  server.cpp
+C:\Users\lenovo\Desktop\вуз\Programming\Lab\01\c++\server\server.cpp(165,15): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  Создание кода
+  Создание кода завершено
+  0 of 4414 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  server.vcxproj -> C:\Users\lenovo\Desktop\вуз\Programming\Lab\01\c++\server\Release\server.exe
