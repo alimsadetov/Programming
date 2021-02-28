@@ -1,0 +1,8 @@
+﻿  25.cpp
+C:\Users\lenovo\Desktop\вуз\Programming\Programming\Practice\25\c++\25\25.cpp(10,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\lenovo\Desktop\вуз\Programming\Programming\Practice\25\c++\25\25.cpp(28,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\lenovo\Desktop\вуз\Programming\Programming\Practice\25\c++\25\25.cpp(41,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\lenovo\Desktop\вуз\Programming\Programming\Practice\25\c++\25\25.cpp(54,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\lenovo\Desktop\вуз\Programming\Programming\Practice\25\c++\25\25.cpp(66,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\lenovo\Desktop\вуз\Programming\Programming\Practice\25\c++\25\25.cpp(68,21): warning C4018: <: несоответствие типов со знаком и без знака
+  25.vcxproj -> C:\Users\lenovo\Desktop\вуз\Programming\Programming\Practice\25\c++\25\Debug\25.exe

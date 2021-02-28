@@ -1,54 +1,62 @@
+import math
 import random
 
-def BozoSort1(arr, isAscending=True):
-	sorted = False
-	n = len(arr)
 
-	while sorted==False:
-		if isAscending:
-			x=random.randint(n)
-			y=random.randint(n)
-			arr[x],arr[y]=arr[y],arr[x]
-			sorted = True
-			for i in range(1, n):
-				if (arr[i - 1] > arr[i]):
-					sorted = False
-					break
+def make2dlist(lst):
+	lst2d = []
+	tmplst = []
+	for i in range(len(lst)):
+		tmplst += [lst[i]]
+		if (i+1) % math.sqrt(len(lst)) == 0:
+			lst2d += [tmplst]
+			tmplst = []
+	return lst2d 
+
+def isSorted(lst, order):
+	if len(lst) <= 1:
+		return True
+	for i in range(1, len(lst)):
+		if order:
+			if (lst[i] < lst[i-1]): return False
 		else:
-			x=random.randint(n)
-			y=random.randint(n)
-			arr[x],arr[y]=arr[y],arr[x]
-			for i in range(1,n):
-				if (arr[i - 1] < arr[i]):
-					sorted = False
-					break
-	return arr
+			if (lst[i] > lst[i-1]): return False
+	return True
 
-def BozoSort2(matrix, isAscending=True):
-	res = []
-	for x in matrix:
-    	res.extend(x if isinstance(x, list) else [x])
-	return BozoSort1(res)
+def BozoSort(lst, order):
+	if type(lst[0]) != list:
+		while not (isSorted(lst, order)):
+			r1 = random.randint(0, len(lst)-1)
+			r2 = random.randint(0, len(lst)-1)
 
-def BozoSort3(a, b, c, isAscending = True):
-	arr=[a, b, c]
-	return BozoSort1(arr, isAscending)
+			lst[r1], lst[r2] = lst[r2], lst[r1]
+		return lst
+	else:
+		rezlst = []
+		for i in range(len(lst)):
+			rezlst.extend(BozoSort(lst[i], order))
+		return rezlst
 
-print('введите колво элементов\n')
-n=int(input())
-print('введите сами элементы через пробел')
-arr=[]
-for i in range(n):
-	arr+=[int(input())]
-matrix=[[]]
-i=0
-while i<n:
-	for k in range(n**0.5):
-		for f in range(n**0.5):
-			matrix[k][f]+=[arr[i]]
-print(Bozosort1(arr))
-print(Bozosort1(arr, False))
-print(Bozosort2(matrix))
-print(Bozosort2(matrix, False))
-print(Bozosort1(arr[0],arr[1],arr[2]))
-print(Bozosort1(arr[0],arr[1],arr[2], False))
+
+def BozoSort(a, b, c, order):
+	return BozoSort([a, b, c], order)
+
+lst = list(map(int, input('Введите массив: ').split()))
+lst2d = make2dlist(lst)
+
+original_lst = []
+original_lst.extend(lst)
+print(original_lst)
+print('• Отсортированный массив целых чисел: \n')
+print(BozoSort(lst, True))
+print(BozoSort(lst, False))
+print('\n')
+
+print('• Отсортированный двумерный массив целых чисел: \n')
+print(BozoSort(lst2d, True))
+print(BozoSort(lst2d, False))
+print('\n')
+
+lst = original_lst
+print('• Отсортированные значения трех отдельных чисел: \n')
+print(BozoSort(lst[0], lst[1], lst[2], True))
+print(BozoSort(lst[0], lst[1], lst[2], False))
