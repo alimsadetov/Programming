@@ -9,7 +9,7 @@
 | Практическая 1 - [[C++]](https://github.com/alimsadetov/Programming/tree/master/Practice/01/c%2B%2B/) [[Python]](https://github.com/alimsadetov/Programming/tree/master/Practice/01/python/) |[[C++]](https://github.com/alimsadetov/Programming/tree/master/Lab/01/c%2B%2B/) [[Python]](https://github.com/alimsadetov/Programming/tree/master/Lab/01/python/) 
 | Практическая 2 - [[C++]](https://github.com/alimsadetov/Programming/tree/master/Practice/02/c%2B%2B/) [[Python]](https://github.com/alimsadetov/Programming/tree/master/Practice/02/python/) |[[C++]](https://github.com/alimsadetov/Programming/tree/master/Lab/02/C%2B%2B) [[Python]](https://github.com/alimsadetov/Programming/tree/master/Lab/02/Python) 
 | Практическая 3 - [[C++]](https://github.com/alimsadetov/Programming/tree/master/Practice/03/c%2B%2B/) [[Python]](https://github.com/alimsadetov/Programming/tree/master/Practice/03/python/) |[[Python]](https://github.com/alimsadetov/Programming/tree/master/Lab/03)
-| Практическая 4 - [[C++]](https://github.com/alimsadetov/Programming/tree/master/Practice/04/c%2B%2B/) [[Python]](https://github.com/alimsadetov/Programming/tree/master/Practice/04/python/) | 
+| Практическая 4 - [[C++]](https://github.com/alimsadetov/Programming/tree/master/Practice/04/c%2B%2B/) [[Python]](https://github.com/alimsadetov/Programming/tree/master/Practice/04/python/) | [[C++]](https://github.com/alimsadetov/Programming/tree/master/Lab/04/c%2B%2B)
 | Практическая 5 - [[C++]](https://github.com/alimsadetov/Programming/tree/master/Practice/05/c%2B%2B/) [[Python]](https://github.com/alimsadetov/Programming/tree/master/Practice/05/python/) | 
 | Практическая 6 - [[C++]](https://github.com/alimsadetov/Programming/tree/master/Practice/06/c%2B%2B/) [[Python]](https://github.com/alimsadetov/Programming/tree/master/Practice/06/python/) | 
 | Практическая 7 - [[C++]](https://github.com/alimsadetov/Programming/tree/master/Practice/07/c%2B%2B/) [[Python]](https://github.com/alimsadetov/Programming/tree/master/Practice/07/python/) |  
@@ -38,3 +38,6 @@
 | Практическая 30 - [[C++]](https://github.com/alimsadetov/Programming/tree/master/Practice/30/c%2B%2B/) [[Python]](https://github.com/alimsadetov/Programming/tree/master/Practice/30/python/) |
 | Практическая 31 - [[C++]](https://github.com/alimsadetov/Programming/tree/master/Practice/31/c%2B%2B/) [[Python]](https://github.com/alimsadetov/Programming/tree/master/Practice/31/python/) |
 | Практическая 32 - [[C++]](https://github.com/alimsadetov/Programming/tree/master/Practice/32/c%2B%2B/) [[Python]](https://github.com/alimsadetov/Programming/tree/master/Practice/32/python/) |
+| Практическая 33 - [[C++]](https://github.com/alimsadetov/Programming/tree/master/Practice/33/c%2B%2B/) [[Python]](https://github.com/alimsadetov/Programming/tree/master/Practice/33/python/) |
+| Практическая 34 - [[C++]](https://github.com/alimsadetov/Programming/tree/master/Practice/34/c%2B%2B/) |
+| Практическая 35 - [[C++]](https://github.com/alimsadetov/Programming/tree/master/Practice/35/c%2B%2B/) |
