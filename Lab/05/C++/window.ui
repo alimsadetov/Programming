@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>384</width>
+    <height>220</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string notr="true">Стенограф</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resources.qrc">
+    <normaloff>:/resources/typewriter.png</normaloff>:/resources/typewriter.png</iconset>
+  </property>
+  <widget class="QWidget" name="central_widget">
+   <layout class="QVBoxLayout" name="vertical_layout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontal_layout"/>
+    </item>
+    <item>
+     <widget class="QPlainTextEdit" name="text_edit">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>1</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="placeholderText">
+       <string>Введите текст...</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="load_button">
+      <property name="text">
+       <string>Загрузить изображение</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="output_label">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>1</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>Сюда будут выводиться уведомления</string>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QPushButton" name="decode_button">
+        <property name="text">
+         <string>Декодировать текст</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="encode_button">
+        <property name="text">
+         <string>Кодировать текст</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="save_button">
+      <property name="text">
+       <string>Сохранить изображение</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>encode_button</tabstop>
+  <tabstop>decode_button</tabstop>
+ </tabstops>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
